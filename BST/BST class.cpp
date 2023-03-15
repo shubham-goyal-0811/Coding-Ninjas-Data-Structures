@@ -31,7 +31,7 @@ class BST {
 				delete node;
 				return NULL;
 			} else if (node->left == NULL) {
-				BinaryTreeNode<int>* temp = node->right;
+				BinaryTreeNode<int>* temp = node->right
 				node->right = NULL;
 				delete node;
 				return temp;
